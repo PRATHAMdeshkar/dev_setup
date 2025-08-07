@@ -177,3 +177,8 @@ wrapt
 xkcdpass
 ````
 ---
+### Create superuser
+Make sure migrations are applied
+````bash
+python manage.py createsuperuser
+````
