@@ -194,6 +194,10 @@ ALTER ROLE my_db_user SET timezone TO 'UTC';
 GRANT ALL PRIVILEGES ON DATABASE my_db_name TO my_db_user;
 \q
 ````
+To change password
+````
+ALTER USER user_name WITH PASSWORD 'new_password';
+````
 Run Migrations and Start the Server
 ````bash
 python manage.py makemigrations
